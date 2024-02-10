@@ -15,7 +15,7 @@ const Layout = () => {
       className="border-2 border-black min-h-screen w-full"
       ref={componentRef}
     >
-      <div className="flex h-28">
+      <div className="row1 flex h-28 ">
         <div className="w-[40%]  border border-slate-400 flex flex-col justify-center items-center font-semibold  ">
           {" "}
           <h1>GR NUMBER</h1>
@@ -32,7 +32,7 @@ const Layout = () => {
           </h1>
         </div>
       </div>
-      <div className="flex h-12">
+      <div className="row2 flex h-12">
         <div className="w-[60%] border border-slate-400 flex flex-col items-center justify-center font-semibold">
           <h1>DATE</h1>
           <h1>8/2/2024</h1>
@@ -43,7 +43,7 @@ const Layout = () => {
           </h1>
         </div>
       </div>
-      <div className="flex h-12">
+      <div className="row3 flex h-12">
         <div className="w-[20%] border border-slate-400 flex  items-center justify-start font-semibold">
           <h1 className="ml-1">Name</h1>
         </div>
@@ -59,7 +59,7 @@ const Layout = () => {
         </div>
       </div>
 
-      <div className="flex h-12">
+      <div className="row4 flex h-12">
         <div className="w-[20%] border border-slate-400 flex  items-center justify-start font-semibold">
           <h1 className="ml-1">Address</h1>
         </div>
@@ -85,7 +85,7 @@ const Layout = () => {
         </div>
       </div>
 
-      <div className="flex h-12">
+      <div className="row5 flex h-12">
         <div className="w-[20%] border border-slate-400 flex  items-center justify-start font-semibold">
           <h1 className="ml-1">Contact No.</h1>
         </div>
@@ -99,7 +99,7 @@ const Layout = () => {
           <h1 className="">Pune</h1>
         </div>
       </div>
-      <div className="flex h-12">
+      <div className="row6 flex h-12">
         <div className="w-[20%] border border-slate-400 flex  items-center justify-start font-semibold">
           <h1 className="ml-1">Name</h1>
         </div>
@@ -114,7 +114,7 @@ const Layout = () => {
       </div>
 
       {/* four  */}
-      <div className="flex h-28">
+      <div className="row7 flex h-28">
         <div className="w-[20%] border border-slate-400 flex  items-center justify-start font-semibold">
           <h1 className="ml-1">Address</h1>
         </div>
@@ -170,9 +170,9 @@ const Layout = () => {
 
       {/* end here */}
 
-      <div className="flex h-12">
+      <div className="row8 flex h-12">
         <div className="w-[20%] border border-slate-400 flex  items-center justify-start font-semibold">
-          <h1 className="ml-1">Name</h1>
+          <h1 className="ml-1">Contact No.</h1>
         </div>
         <div className="w-[30%] border border-slate-400 flex flex-col justify-center items-center  ">
           <h1>Consigee</h1>
@@ -185,10 +185,9 @@ const Layout = () => {
       </div>
 
       {/* --------------- */}
-      <div className="flex h-20">
-        <div className="w-[50%] border border-slate-400 flex flex-col items-center justify-center font-semibold">
-          <h1>DATE</h1>
-          <h1>8/2/2024</h1>
+      <div className="row9 flex h-20">
+        <div className="w-[50%] border border-slate-400 flex  items-center justify-start  font-semibold">
+          <h1 className="ml-1">Content::</h1>
         </div>
         <div className="w-[50%] border border-slate-400 flex justify-start items-center bg-blue-200  ">
           <h1 className="  font-semibold ml-1">
@@ -197,9 +196,9 @@ const Layout = () => {
         </div>
       </div>
       {/* ------------ */}
-      <div className="flex h-12">
+      <div className="row10 flex h-12">
         <div className="w-[20%] border border-slate-400 flex  items-center justify-start font-semibold">
-          <h1 className="ml-1">Contact No.</h1>
+          <h1 className="ml-1">Consignor's Signature.</h1>
         </div>
         <div className="w-[30%] border border-slate-400 flex flex-col justify-center items-center  ">
           <h1>65776769</h1>
@@ -214,9 +213,9 @@ const Layout = () => {
 
       {/* --------------- */}
 
-      <div className="flex h-12">
+      <div className="row11 flex h-12">
         <div className="w-[20%] border border-slate-400 flex  items-center justify-start font-semibold">
-          <h1 className="ml-1">Contact No.</h1>
+          <h1 className="ml-1">Pick up by</h1>
         </div>
         <div className="w-[30%] border border-slate-400 flex flex-col justify-center items-center  ">
           <h1>65776769</h1>
